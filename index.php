@@ -1,7 +1,7 @@
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-$link = mysqli_connect("localhost", "root", "", "demo");
+$link = mysqli_connect("mariadb:3306", "t2user", "t2!user", "sampledb");
  
 // Check connection
 if($link === false){
